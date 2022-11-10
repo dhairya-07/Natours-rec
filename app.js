@@ -16,6 +16,7 @@ const userRouter = require(`./routes/userRoutes`);
 const reviewRouter = require('./routes/reviewRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
+// Start Express App
 const app = express();
 
 // Setting up PUG engine
